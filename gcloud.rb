@@ -2,9 +2,9 @@ require 'formula'
 
 class Gcloud < Formula
   homepage 'https://cloud.google.com/sdk'
-  url 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-155.0.0-linux-x86_64.tar.gz'
-  version '155.0.0'
-  sha256 '4b64fba9d98b9e48cc7a37ed3b321e50f92e87f9c2b358d183f966dae05216a2'
+  url 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-156.0.0-linux-x86_64.tar.gz'
+  version '156.0.0'
+  sha256 'f47f41e7c389301dfee4879d6eb71d36c7b06aaf43a2be49a9ea39749be22851'
 
   depends_on :python
 
