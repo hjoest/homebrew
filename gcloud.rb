@@ -2,11 +2,11 @@ require 'formula'
 
 class Gcloud < Formula
   homepage 'https://cloud.google.com/sdk'
-  url 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-183.0.0-darwin-x86_64.tar.gz'
-  version '183.0.0'
-  sha256 '605332cb305a04d377572d61063db88433862521f1aa4887d3b3fbfaaf1519a2'
+  url 'https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-187.0.0-darwin-x86_64.tar.gz'
+  version '187.0.0'
+  sha256 'c7808472193864df9227a4651455f5a136ef4a0ef0157bdfae9123276bc36a4c'
 
-  depends_on :python
+  depends_on "python"
 
   option "without-completions", "Disable bash/zsh completions"
 
